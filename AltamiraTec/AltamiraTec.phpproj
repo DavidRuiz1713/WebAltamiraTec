@@ -1,0 +1,151 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>AltamiraTec</Name>
+    <ProjectGuid>e49f5b1a-46d3-4bd0-945d-7bc55a728f0d</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>AltamiraTec</AssemblyName>
+    <SpecificPageValue>index.php</SpecificPageValue>
+    <StartAction>SpecificPage</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="carrusel.php" />
+    <Compile Include="Contacto.php" />
+    <Compile Include="index.php" />
+    <Compile Include="servicios1.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="abrirmenu.js" />
+    <Content Include="animate.css" />
+    <Content Include="css\bootstrap-flex.css" />
+    <Content Include="css\style.css" />
+    <Content Include="estilocarrusel.css" />
+    <Content Include="estilomenu.css" />
+    <Content Include="footer.css" />
+    <Content Include="formulario.css" />
+    <Content Include="fuentes\Caudex-Bold.ttf" />
+    <Content Include="fuentes\Caudex-BoldItalic.ttf" />
+    <Content Include="fuentes\Caudex-Italic.ttf" />
+    <Content Include="fuentes\Caudex-Regular.ttf" />
+    <Content Include="fuentes\Caudex.zip" />
+    <Content Include="fuentes\GloriaHallelujah.ttf" />
+    <Content Include="fuentes\GloriaHallelujah_1.ttf" />
+    <Content Include="fuentes\Gloria_Hallelujah.zip" />
+    <Content Include="fuentes\JosefinSans-Bold.ttf" />
+    <Content Include="fuentes\JosefinSans-BoldItalic.ttf" />
+    <Content Include="fuentes\JosefinSans-Italic.ttf" />
+    <Content Include="fuentes\JosefinSans-Light.ttf" />
+    <Content Include="fuentes\JosefinSans-LightItalic.ttf" />
+    <Content Include="fuentes\JosefinSans-Regular.ttf" />
+    <Content Include="fuentes\JosefinSans-SemiBold.ttf" />
+    <Content Include="fuentes\JosefinSans-SemiBoldItalic.ttf" />
+    <Content Include="fuentes\JosefinSans-Thin.ttf" />
+    <Content Include="fuentes\JosefinSans-ThinItalic.ttf" />
+    <Content Include="fuentes\Josefin_Sans.zip" />
+    <Content Include="fuentes\OFL.txt" />
+    <Content Include="fuentes\PatrickHandSC-Regular.ttf" />
+    <Content Include="fuentes\Patrick_Hand_SC.zip" />
+    <Content Include="fuentes\SourceSansPro-Black.ttf" />
+    <Content Include="fuentes\SourceSansPro-BlackItalic.ttf" />
+    <Content Include="fuentes\SourceSansPro-Bold.ttf" />
+    <Content Include="fuentes\SourceSansPro-BoldItalic.ttf" />
+    <Content Include="fuentes\SourceSansPro-ExtraLight.ttf" />
+    <Content Include="fuentes\SourceSansPro-ExtraLightItalic.ttf" />
+    <Content Include="fuentes\SourceSansPro-Italic.ttf" />
+    <Content Include="fuentes\SourceSansPro-Light.ttf" />
+    <Content Include="fuentes\SourceSansPro-LightItalic.ttf" />
+    <Content Include="fuentes\SourceSansPro-Regular.ttf" />
+    <Content Include="fuentes\SourceSansPro-SemiBold.ttf" />
+    <Content Include="fuentes\SourceSansPro-SemiBoldItalic.ttf" />
+    <Content Include="fuentes\Source_Sans_Pro.zip" />
+    <Content Include="img\a.png" />
+    <Content Include="img\Altamira2.png" />
+    <Content Include="img\ALTfondo.png" />
+    <Content Include="img\Atec.png" />
+    <Content Include="img\Atec1.png" />
+    <Content Include="img\auto.jpg" />
+    <Content Include="img\Fondo-1.gif" />
+    <Content Include="img\Fondo-5.gif" />
+    <Content Include="img\Fondo-web-2.png" />
+    <Content Include="img\Fondo-web.png" />
+    <Content Include="img\Logo Altamira Tec.png" />
+    <Content Include="img\Logo-Redes-y-Soluciones-IP.png" />
+    <Content Include="img\Logo-Web-Altamira-6.png" />
+    <Content Include="img\mybackground.jpg" />
+    <Content Include="img\PROMO-CAM-WIFI-2.1.png" />
+    <Content Include="img\PROMO-TABLERO-DE-TRANSFERENCIA.png" />
+    <Content Include="img\PROMO-TELEFONÍA-IP.png" />
+    <Content Include="img\Redes-y-Soluciones-IP.png" />
+    <Content Include="img\RedesSoluciones.png" />
+    <Content Include="img\SegElectr.png" />
+    <Content Include="img\Seguridad-electrónica.gif" />
+    <Content Include="img\Seguridad-electrónica.jpg" />
+    <Content Include="img\Seguridad-electrónica.png" />
+    <Content Include="img\ShinyButtonBlue.png" />
+    <Content Include="img\SoftDesarrollo.png" />
+    <Content Include="img\SolIndustriales.png" />
+    <Content Include="img\web-trabajando.gif" />
+    <Content Include="img\web.jpeg" />
+    <Content Include="js\app.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\carrusel.js" />
+    <Content Include="js\jquery-3.2.1.min.js" />
+    <Content Include="js\particles.js" />
+    <Content Include="js\particles.min.js" />
+    <Content Include="js\smooth-scroll.min.js" />
+    <Content Include="mapa.css" />
+    <Content Include="nbproject\private\private.properties" />
+    <Content Include="nbproject\private\private.xml" />
+    <Content Include="nbproject\project.properties" />
+    <Content Include="nbproject\project.xml" />
+    <Content Include="particles.js-master\.gitignore" />
+    <Content Include="particles.js-master\bower.json" />
+    <Content Include="particles.js-master\demo\css\style.css" />
+    <Content Include="index2.html" />
+    <Content Include="particles.js-master\demo\js\app.js" />
+    <Content Include="particles.js-master\demo\js\lib\stats.js" />
+    <Content Include="particles.js-master\demo\particles.json" />
+    <Content Include="particles.js-master\LICENSE.md" />
+    <Content Include="particles.js-master\package.json" />
+    <Content Include="particles.js-master\particles.js" />
+    <Content Include="particles.js-master\particles.min.js" />
+    <Content Include="particles.js-master\README.md" />
+    <Content Include="redes.css" />
+    <Content Include="responsive.css" />
+    <Content Include="secciones.css" />
+    <Content Include="slider.css" />
+    <Content Include="SSS-master\readme.txt" />
+    <Content Include="SSS-master\sss\images\arr.png" />
+    <Content Include="SSS-master\sss\license.txt" />
+    <Content Include="SSS-master\sss\sss.css" />
+    <Content Include="SSS-master\sss\sss.js" />
+    <Content Include="SSS-master\sss\sss.min.js" />
+    <Content Include="SSS-master\sss\sss_1.css" />
+    <Content Include="Tablaprecios.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="fuentes\" />
+    <Folder Include="img\" />
+    <Folder Include="js\" />
+    <Folder Include="nbproject\" />
+    <Folder Include="nbproject\private\" />
+    <Folder Include="particles.js-master\" />
+    <Folder Include="particles.js-master\demo\" />
+    <Folder Include="particles.js-master\demo\css\" />
+    <Folder Include="particles.js-master\demo\js\" />
+    <Folder Include="particles.js-master\demo\js\lib\" />
+    <Folder Include="SSS-master\" />
+    <Folder Include="SSS-master\sss\" />
+    <Folder Include="SSS-master\sss\images\" />
+  </ItemGroup>
+</Project>

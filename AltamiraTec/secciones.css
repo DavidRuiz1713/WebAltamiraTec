@@ -1,0 +1,286 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08/06/2017, 14:33:29
+    Author     : DAVID
+*/
+/**{
+    box-sizing: border-box;
+}*/
+@font-face{
+    font-family: estletrasec;
+    src: url(fuentes/JosefinSans-ThinItalic.ttf);
+}
+@font-face{
+    font-family: estletrasourecsans;
+    src: url(fuentes/SourceSansPro-Light.ttf);
+}
+
+/*h1,h2,h4,h5{
+    text-transform: uppercase;
+    color: #444;
+    font-family: estletrasec;
+    letter-spacing: 1px;
+    }*/
+h2{
+font-size: 40px;
+color: #333;
+
+}
+h3{
+   font-family: estletra;
+   font-size: 20px;
+   line-height: 1.5;/*espacio entre lineas del parrafo*/
+   padding-top: 20px;
+   font-weight: normal;
+   color: #777;
+    }
+ h4{
+     margin-top: 20px;
+     font-size: 25px;
+ }
+ h5{
+    font-family: estletrasec;
+    line-height: 1.5;
+    font-weight: normal;
+    padding: 10px 0px;
+    font-size: 15px;
+     
+ }
+ p{
+     color: blue;
+     font-size: 15px;
+     font-family: estletra;
+ }
+.wap{
+/*    background: red;*/
+    width: 100%;
+    margin: auto;
+      
+    }
+.wapcontactanos{
+/*    background: red;*/
+    width: 80%;
+    margin: auto;
+      
+    }
+.contactanos{
+    padding-top:  90px;
+    text-align: left;
+    /*background: yellow;*/
+    clear: both;
+}    
+.contactanos h2{
+     text-align: left;
+    font-family: estletrasourecsans;
+    color: #6295F4;
+    padding: 0px 0px;
+}    
+.contactanos h3{
+    text-align: left;
+    font-size: 25px;
+    font-family: estletrasourecsans;
+    color: black;
+    padding: 0px 0px;
+}    
+.contenedorcolumnas{
+    padding-top: 0px;
+    width: 100%;
+    height: 330px;
+    margin: auto;
+/*    margin-bottom: 20px;margen abajo*/
+/*    background: yellow;*/
+    
+    
+}
+.columnasx3{
+    width: 25%;
+    float: left;
+    padding: 1px 1px;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;  
+    position: relative;
+    
+   }
+ /*Codigo img y h3 como link frente a la imagen*/
+ .columnasx3 img{
+    width: 100%;
+    height: 300px;
+    float: left;
+    
+ }
+ .columnasx3 h3 {
+    position: absolute;
+    padding: 110px;
+    width: 100%;
+    height: 300px;
+    background:none;
+    box-sizing: border-box;
+    transition: 0.4s;/*para el cambio de color cuando paso el mouse*/
+ }
+/* .columnasx3 h3:hover{
+     background: rgba(0,0,0,.9);
+     transition: 0.4s;para el cambio de color cuando paso el mouse
+     
+ }*/
+ .columnasx3 h3 a {
+    color: red;
+    text-decoration: none;
+    font-size: 42px;
+    font-family: estletra;
+ }
+ .columnasx3 i{
+    float: left;
+    padding-right: 20px;
+    
+ }
+ .columnasx3 h4{
+    padding-bottom: 10px;
+    
+ }
+ .columnasx3 p{
+    text-align: justify;
+    
+ }
+ .baner1{
+     background: rgba(244, 245, 246,.8);
+     width: 100%;
+     clear: both;/*para que limpie el float y no se coloque bajo la anterior seccion*/
+     padding: 50px 30px;
+     text-align: center;
+     box-sizing: border-box;
+     transition: 0.4s;
+ }
+ .baner1:hover{
+     background: #97B7FF;
+     transition: 0.4s;/*para el cambio de color cuando paso el mouse*/
+ }
+ .baner1 h3{
+     color: #333;
+     padding: 10px;
+ }
+ .baner1 h3 a{
+     margin-left:8px;
+     text-decoration: none;
+     color: #000;
+     border-bottom: 2px solid #000;
+ }
+ .baner2{
+     margin-top: 50px;
+     background: url(img/mybackground.jpg);
+     float: left;
+     width: 100%;
+     height: 200px;
+     background-repeat: no-repeat;/*para que la imagen no se repita*/
+     background-size: cover;/*para que cubra el 100% del ancho*/
+     background-attachment: fixed;/*posicion fija para la imagen*/
+     text-align: center;
+ }
+ .baner2 h3{
+     background: rgba(0,0,0,.5);
+     color: #fff;
+     padding: 10px;
+     font-size: 32px;
+     height: 100%;
+     padding-top: 4%;
+     
+ }
+ .baner2 h3 a{
+     margin-left:8px;
+     text-decoration: none;
+     color: #fff;
+     border-bottom: 2px solid #fff;
+ }
+ 
+ .wap-productos{
+    padding-top: 60px;
+    background: red;
+    width: 80%;
+    height: 100vh;
+    margin: auto; 
+}
+
+.productos{
+    width: 100%;
+    margin: auto;
+    font-family: estletrasourecsans;
+}
+
+.productos h2{
+     text-align: left;
+    font-family: estletrasourecsans;
+    color: #6295F4;
+    padding: 0px 0px;
+}    
+.productos h3{
+    text-align: left;
+    font-size: 25px;
+    font-family: estletrasourecsans;
+    color: black;
+    padding: 0px 0px;
+}    
+.contenedorcolumnasproductos1{
+    background: gray;
+    padding-top: 3px;
+    width: 80%;
+    height: 300px;
+    margin-left: 30px;
+}
+.contenedorcolumnasproductos2{
+    background: gray;
+    padding-top: 3px;
+    width: 80%;
+    height: 300px;
+    margin-left: 160px;
+}
+.columnasproductos{
+    background: blue;
+    width: 32%;
+    float: left;
+    height: 250px;
+    padding:3px 3px;
+    box-sizing: border-box;
+    margin: 4px 4px;
+    text-align: center;  
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+    
+}
+.columnasproductos img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+    float: left;
+    clear: both;
+    
+}
+.columnasproductos p{
+    background: none;
+    color: rgba(215, 44, 44, 0);
+    width: 98%;
+    height: 98%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    float: left;
+    position: absolute;
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.9s;/*para el cambio de color cuando paso el mouse*/
+    
+}
+.columnasproductos p:hover{
+      color: white;
+      background: rgba(19, 77, 247, 0.4);
+/*     background: #97B7FF;*/
+     transition: 0.9s;/*para el cambio de color cuando paso el mouse*/  
+ }
+.columnasproductos:hover{
+     background: #97B7FF;
+     transition: 0.9s;/*para el cambio de color cuando paso el mouse*/  
+ }
+    

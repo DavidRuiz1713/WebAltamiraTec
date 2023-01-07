@@ -1,0 +1,133 @@
+.sss {
+	height: 0;
+	margin: 0; 
+	padding: 0;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.ssslide {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	overflow: hidden;
+}
+
+.ssslide img {
+	max-width: 100%;
+	height: 300px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+}
+
+.sssnext, .sssprev {
+	width: 25px;
+	height: 100%;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	background: url('images/arr.png') no-repeat;
+}
+
+.sssprev {
+	left: 3%;
+	background-position: 0 50%;
+}
+
+.sssnext {
+	right: 3%;
+	background-position: -26px 50%;
+}
+
+.sssprev:hover, .sssnext:hover {
+	cursor: pointer;
+}
+/*clases propias*/
+.testimonios{
+/*   background: yellow;*/
+  
+   padding: 0px 0px;
+   text-align: center;
+   
+}
+.titulo-slider{
+   padding: 0px 0px;
+   text-align: center;
+   
+}
+
+.slider img{
+    position: absolute;
+    margin: auto;
+    padding-bottom: 0px;
+    padding-top: 0px;
+   }
+.slider-1{
+    background: red;
+    width: 100%;
+    height: 300px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    
+
+}
+
+/*.slider-1 h3{
+    
+    position: absolute;
+    padding: 0px 0px;
+    width: 100%;
+    height: 300px;
+    background: rgba(0,0,0,.2);
+    box-sizing: border-box;
+    transition: 0.4s;para el cambio de color cuando paso el mouse
+   
+}*/
+.slider-1 a:hover{
+     background: rgba(0,0,0,.9);
+     transition: 0.4s;/*para el cambio de color cuando paso el mouse*/
+     }
+/* .slider-1 h3 a {
+    color: #000;
+    text-decoration: none;
+    text-align: right;
+    font-size: 42px;
+    font-family: estletra;
+ }*/
+/* .slider-1 i{
+    float: left;
+    padding-right: 20px;
+    
+ }*/
+
+ .slider-2{
+    display: none;
+    background: #55acee;
+    height: 40px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+   
+}
+ .slider-2 h6{
+    position: absolute;
+    padding: 1px;
+    width: 100%;
+    height: 20px;
+    background:none;
+    box-sizing: border-box;
+    transition: 0.4s;/*para el cambio de color cuando paso el mouse*/
+}
+ .slider-2 h6 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: estletrasourecsans;
+    font-weight: normal;
+}

@@ -1,0 +1,306 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/06/2017, 13:20:16
+    Author     : DAVID
+*/
+
+@media only screen and (max-width: 480px){
+    
+    .redD{
+        display: none;
+    }
+    .columnasx3{
+        width: 100%;
+    }
+    
+    /*para el menu*/
+
+/*.ancho{
+    width: 100%;
+    height: 60px;
+    background:#3E4095;
+    margin: auto;
+}*/
+
+.logo{
+    
+    width: 80%;
+    
+}
+
+.menu-cel{
+/*    background: yellow;*/
+    display: block;
+  
+
+}
+
+header label{
+    display: block;
+    }
+    
+.menu{
+ margin-top:  60px;
+ margin-left: -175px;
+ background: rgba(0,0,0,.8);
+ width: 150px;
+ height: auto; 
+ padding: 10px; 
+ position: absolute;
+ transition: 0.5s; 
+}
+.submenu{
+ margin-top:  10px;
+ margin-left: 120px;
+/* background: red;*/
+ width: auto;
+ height: auto; 
+ padding: 1px; 
+ position: absolute;
+ transition: 0.5s; 
+}
+.submenu ul li{
+/*    background: gray;*/
+    display: block; 
+    padding: 10px;
+    width: auto;
+    height: auto;
+    border-bottom:  1px solid #fff;
+    box-sizing: border-box;
+      
+}
+.submenu ul li a{
+/*    background: gray;*/
+    display: block; 
+    padding: 2px;
+    width: 150px;
+    height: auto;
+    text-align: left;
+    box-sizing: border-box;
+      
+}
+    
+.menu ul li{
+/*    background: red;*/
+    display: flex;
+    padding: 4px 0px; 
+    margin: 1px;
+    border-bottom:  1px solid #fff;
+    }
+.menu ul li a{
+   margin: 5px;
+   padding: 2px;
+    }
+    
+.menu ul li:hover{
+    background: rgba(0,0,0,0.9);
+      
+}
+#btn-menu{
+    display: none;
+}
+#btn-menu:checked ~ .menu{
+margin-left:  -25px;
+ }
+/*.wap{
+    background: yellow;
+    width: 100%;
+    height: 1300px;
+    margin: auto;
+      
+    }*/
+ .abrir{
+      margin-left: -25px;
+      transition: 0.5s;
+     
+ }
+ /*footer*/
+ .footer-d{
+    background: rgba(244, 245, 246,.8);
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-total{
+    width: 100%;
+    height: 80px;
+/*  background: rgba(244, 245, 246,.8);*/
+    margin: auto;
+}
+
+.footer-lista{
+    display: none;
+}
+
+
+/*.footer-redresponsive{
+    
+}*/
+.footer-final h2{
+    text-align: center;
+    margin-top: -25px;
+    font-size: 10px;
+/*    background: rgba(244, 245, 246,.8);*/
+    
+}
+.footer-listared{
+   display: block;
+   width:  100%;   
+}
+.footer-listacontacto{
+   display: block;
+   color: black;
+   width:  100%;   
+}
+.footer-final h2{
+    color: black;
+    font-size: 10px;
+    font-family: estletrasourecsans;
+}
+
+.lista-redes{
+    list-style: none;
+    font-size: 30px;
+    text-decoration: none;  
+    text-align: center;
+    }
+
+.lista-redes i{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 10px;
+    margin-right: 20px;
+    color: #000;   
+}
+
+/*Para la página de contáctenos*/
+
+    
+.contactanos h2{
+     text-align: center;
+/*    font-family: estletra;*/
+    font-size: 25px;
+    color: #6295F4;
+    padding: 0px 0px;
+}    
+.contactanos h3{
+     text-align: center;
+/*    font-family: estletra;*/
+     font-size: 15px;
+    color: black;
+    padding: 0px 0px;
+}    
+.columnasx2{
+    margin-top: 20px;
+    height: 450px;
+
+    }
+.formulario{
+    float: left;
+    padding: 0px;
+    width: 100%;
+    height: 450px;
+    margin: 0px;
+/*    color: #fff;*/
+    
+}
+.parrafoformulario{
+    width: 100%;
+    height: 300px;
+    padding-top: 70px;
+    margin: auto;
+ }
+ .parrafoformulario h4{
+/*   background: yellow;*/
+   margin: 0px 0px;
+   font-weight: normal;
+   font-size: 25px;
+   text-align: center;
+}
+.caja-1{
+    position: relative;
+    left: 10px;
+    top: 5px;
+   }
+.caja-2{
+    position: relative;
+    left: 10px;
+    width: 200px;
+    height: 150px;
+}
+.comentarios{
+    left: 10px;
+    top:  5px;  
+}
+.boton-enviar{
+      position: relative;
+      left: 15px;
+     top:  5px;
+      
+      }
+       /*Servicios*/
+       
+ .productos h2{
+     text-align: center;
+/*    font-family: estletra;*/
+    font-size: 25px;
+    color: #6295F4;
+    padding: 0px 0px;
+}    
+.productos h3{
+     text-align: center;
+/*    font-family: estletra;*/
+     font-size: 15px;
+    color: black;
+    padding: 0px 0px;
+} 
+
+.wap-productos{
+    padding-top: 60px;
+    background: none;
+    width: 90%;
+    height: 100vh;
+    margin: auto; 
+}
+.slider-1B, .slider-2B, .slider-3B{
+	height: 200vh;
+	text-align: center;
+}
+.contenedorcolumnasproductos1{
+    background: gray;
+    padding-top: 3px;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+}
+.contenedorcolumnasproductos2{
+    background: gray;
+    padding-top: 3px;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+}
+.columnasproductos{
+    background: blue;
+    width: 100%;
+    float: left;
+    height: 150px;
+    padding:3px 3px;
+    box-sizing: border-box;
+    margin: 4px 4px;
+    text-align: center;  
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+    
+}
+ }
+ 
+
+
+

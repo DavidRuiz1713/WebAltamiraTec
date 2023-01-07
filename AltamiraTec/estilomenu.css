@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07/06/2017, 20:00:22
+    Author     : DAVID PAGINA ALTAMIRA TEC
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background:rgba(0,0,0,.9);
+    position: fixed;
+    z-index: 10;
+}
+.ancho{
+    width: 90%;
+    height: 60px;
+/*    background:#3E4095;*/
+    margin: auto;
+}
+.logo{
+/*    background: red;*/
+    width: 30%;
+    height: 60px;
+/*    background:beige;*/
+    float: left; /*que se vaya lo más a la iz posible*/ 
+    padding: 5px 5px;
+    box-sizing: border-box;
+    margin: auto;
+}
+.logo p a {
+    
+    color: #fff;
+    font-size: 10px;
+    text-decoration: none;
+    font-family: estletrasourecsans;
+    
+}
+
+.menu-cel input{
+    display: none;
+}
+
+.menu-cel{
+    display: none;
+    color:#fff;
+    width: 20%;
+    height: 60px;
+/*    background:green;*/
+    font-size: 40px;
+    float: left; /*que se vaya lo más a la iz posible*/
+    text-align: center;
+   
+    
+}
+.menu-cel i:hover{
+    color: #6295F4;
+    cursor: pointer;
+}
+
+.menu{
+    width: 70%;
+    height: 60px;
+/*    background:orange;*/
+    float: left; /*que se vaya lo más a la iz posible*/
+    text-align: right;
+    padding: 20px;
+    box-sizing: border-box;  
+    
+}
+.menu ul li{
+    display: inline-block;
+    
+}
+.menu ul li a{
+/*    background: olive;*/
+    color: #fff;
+    padding: 5px 35px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 40px;/*para que se separen los li*/
+    /*font-weight: bold;/*negritas*/
+    letter-spacing: 1px;/*espacio entre letras*/
+    font-family: estletrasourecsans;
+}
+@font-face{
+    font-family: estletra;
+    src: url(fuentes/JosefinSans-Regular.ttf);
+}
+.menu ul li a:hover{
+    color: #6295F4;
+    transition: 0.5s;
+}
+.submenu  ul{
+    display: none; 
+/*    background: rgba(0,0,0,.8);*/
+}
+.submenu{
+    width: auto;
+    height: auto; 
+/*    height: auto;*/
+    position: absolute;
+    padding-top: 20px;
+/*    box-sizing: border-box;*/
+    
+    
+     }
+.submenu ul li{
+    background: rgba(0,0,0,.8);
+    display: flex; 
+    height: auto;
+    width: auto;
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom:  5px;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+ 
+    
+}
+.submenu ul li a{
+    margin: 0px;
+    padding: auto;
+    height: auto;
+    width: 200px;
+/*    height: 10px;*/
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;/*espacio entre letras*/
+    font-family: estletrasourecsans;
+    box-sizing: border-box;
+}
+.menu ul li:hover ul{
+    
+    display: block;
+
+}

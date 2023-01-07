@@ -1,0 +1,152 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/06/2017, 10:27:01
+    Author     : DAVID
+*/
+.columnasx2{
+    margin-top: 20px;
+    height: 350px;
+
+    }
+.formulario{
+/*    background: red;*/
+    float: left;
+    width: 60%;
+    height: 300px;
+    margin: auto;
+/*    color: #fff;*/
+    
+}
+.parrafoformulario{
+    float: left;
+    width: 40%;
+    height: 300px;
+    padding-top: 70px;
+    margin: auto;
+
+  }
+.parrafoformulario h4{
+   color: black;
+   margin: 0px 0px;
+   font-family: estletrasourecsans;
+   font-weight: normal;
+}
+.caja-1{
+    position: absolute;
+    left: 240px;
+    margin: 5px;
+    padding: 5px;
+    background:rgba(0,0,0,.8);
+    color: #fff;
+    font-size: 18px;
+    font-family: estletrasourecsans;
+    width: 200px;
+    height: 25px; 
+    border-radius: 5px 10px 5px 10px;
+    border: none;
+/*    background: blue;*/
+}
+.nombre{
+    
+    top:  250px; 
+    border: none;
+}
+.email{
+    
+    top:  290px; 
+}
+.tel{
+    
+    top:  330px;  
+}
+.asunt{
+  
+    top:  370px;  
+}
+.nombreserv{
+    
+    top:  2650px; 
+    border: none;
+}
+.emailserv{
+    
+    top:  2690px; 
+}
+.telserv{
+    
+    top:  2730px;  
+}
+.asuntserv{
+  
+    top:  2760px;  
+}
+.caja-2{
+    position: absolute;
+    background:rgba(0,0,0,.8);
+    width: 345px;
+    height: 150px;
+    margin: 5px;
+    padding: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-family: estletrasourecsans;
+    font-style: inherit;
+    border-radius: 5px 30px 5px 30px;
+    border: none;
+
+}
+.comentarios{
+    left: 500px;
+    top:  250px;  
+}
+.comentariosserv{
+    left: 500px;
+    top:  2650px;  
+}
+
+.boton-enviar{
+      position: absolute;
+      background: #55acee;
+      left: 650px;
+      top:  450px; 
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      font-family: estletrasourecsans;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px 70px;
+      letter-spacing: 1px;
+      width: 200px;
+      border-radius: 20px 20px 20px 20px;
+      border: none;
+      }
+ .boton-enviar:hover{
+      background:rgba(0,0,0,.8);
+      cursor: pointer;
+  }
+.boton-enviarserv{
+      position: absolute;
+      background: #55acee;
+      left: 650px;
+      top:  2830px; 
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      font-family: estletrasourecsans;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px 70px;
+      letter-spacing: 1px;
+      width: 200px;
+      border-radius: 20px 20px 20px 20px;
+      border: none;
+      }
+ .boton-enviarserv:hover{
+      background:rgba(0,0,0,.8);
+      cursor: pointer;
+  }

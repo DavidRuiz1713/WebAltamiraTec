@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07/06/2017, 23:38:31
+    Author     : DAVID
+*/
+
+#particles-js{
+    
+    background: url(img/Fondo-5.gif);
+    
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+    height: 800px;
+    background-repeat: no-repeat;/*para que la imagen no se repita*/
+    background-size: cover; /*para que cubra el 100% del ancho*/ 
+    background-attachment: fixed; /*posicion fija para la imagen*/
+}
+
+.ancholetras{
+    top: 150px;
+    position: absolute;
+/*    background: rgba(0,0,0,0.8);*/
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+.letrasslider{
+    width: 80%;
+    margin: auto;
+}
+.letrasslider h1{
+    color: #000;
+    font-family: estletrasourecsans;
+    font-size: 80px;
+}
+.letrasslider p{
+    color: #000;
+    font-family: estletracaudex;
+    font-size: 30px;
+    padding-top: 20px;
+}

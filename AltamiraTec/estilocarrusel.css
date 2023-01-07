@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/07/2017, 15:01:09
+    Author     : DAVID
+*/
+
+            * {
+                box-sizing: border-box;
+            }
+
+            .carrusel{
+                background: green;
+                position: relative;
+                margin: auto;
+                width: 100%
+            }
+
+            .carrusel ul {
+                background: yellow;
+                position: absolute;
+                width: 100%;
+                height: 200px; 
+             
+                
+            }
+
+            .carruselli {
+            
+                width: 25%;
+                list-style-type: none;
+                position: absolute;
+                top: 0;
+                padding: 20px;
+                height: 200px; 
+                opacity: 0;
+                padding-top: 20px;
+                text-align: center;
+                transition: 1s opacity; 
+            }
+
+            .active {
+                opacity: 1;
+            }
+
+            .carrusel p {
+                font-family: sans-serif;
+                font-size: 13px;
+                color: red;
+                line-height: 1.5em;
+            }
+
+            strong { 
+                color: blue;
+                font-weight: 700;
+                font-size: 60px; 
+                line-height: 100px; 
+            }
